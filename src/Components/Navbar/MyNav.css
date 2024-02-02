@@ -1,0 +1,39 @@
+.cart{
+    width: 100px;
+    height: auto;
+}
+.cart-btn{
+    outline: none;
+    border: none;
+}
+.logo{
+    width: 200px;
+    height: auto;
+    /* border-radius: 50%; */
+}
+.cart-icon{
+    width: 50px;
+    height: auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.nav-cart-count{
+    margin-right: -10px;
+    margin-top: -5px;
+    font-size: 14px;
+    border-radius: 11px;
+    background-color: red;
+    color: white;
+    width: 18px;
+    height: 18px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hr{
+    /* height: 1px solid red; */
+    /* color: red; */
+    border-top: 2px solid red;
+}
