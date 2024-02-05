@@ -8,6 +8,7 @@ import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Shop from './Pages/Shop';
 import MyNav from './Components/Navbar/MyNav';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignup />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );
